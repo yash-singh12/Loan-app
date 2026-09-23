@@ -1,6 +1,6 @@
 # Loan Admin Panel
 
-Made for CodeNicely assignment. Simple admin panel to manage loan products and users. Backend decides if user is Active or Rejected based on product rules.
+Simple admin panel to manage loan products and users. Backend decides if user is Active or Rejected based on product rules.
 
 ## What I used
 - Frontend: React + Vite, axios, react-router
