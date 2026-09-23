@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; color: #222; }
+
+.center { display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+
+.card { background: white; padding: 24px; border-radius: 8px; width: 340px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+.card label { display: block; margin: 8px 0; font-size: 14px; }
+.modal label { display: block; margin: 8px 0; font-size: 14px; }
+
+.card input { width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #ccc; border-radius: 4px; }
+.modal input, .modal select { width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #ccc; border-radius: 4px; }
+
+button { background: #1d4ed8; color: white; border: 0; padding: 8px 14px; border-radius: 4px; cursor: pointer; margin: 4px 4px 4px 0; }
+button.ghost { background: #e5e7eb; color: #111; }
+button.active { background: #111; }
+
+.error { background: #fee; color: #a00; padding: 8px; border-radius: 4px; margin: 8px 0; }
+.notice { background: #dff0d8; padding: 10px; cursor: pointer; }
+.muted { color: #666; font-size: 13px; }
+
+.layout header { display: flex; justify-content: space-between; align-items: center; background: #16213a; color: white; padding: 12px 20px; }
+.layout nav { padding: 12px 20px; }
+.layout section { padding: 0 20px 30px; }
+
+table { width: 100%; background: white; border-collapse: collapse; margin-top: 12px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; font-size: 14px; }
+th { background: #eef2ff; }
+
+/* row for forms */
+.row { display: flex; gap: 12px; align-items: center; margin: 8px 0; flex-wrap: wrap; }
+
+.Active { background: #d1fae5; color: #065f46; padding: 2px 8px; border-radius: 10px; }
+.Rejected { background: #fee2e2; color: #991b1b; padding: 2px 8px; border-radius: 10px; }
+
+.modal-bg { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); display: flex; justify-content: center; align-items: center; }
+.modal { background: white; padding: 20px; border-radius: 8px; width: 440px; max-width: 92vw; max-height: 90vh; overflow: auto; }
+
+/* checkbox inline */
+.chk { display: inline-block !important; margin-right: 12px !important; }
+.chk input { width: auto !important; margin-right: 4px; }
